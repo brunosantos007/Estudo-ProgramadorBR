@@ -1,0 +1,61 @@
+#principal{
+    color: green;
+    /*background-color: blue;*/
+}
+body{
+    /*background-image: url(imgs/GM-tracker_2021.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+}
+#paragrafos{
+    /*background-image: url(imgs/GM-tracker_2021.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+   
+}
+.subdiv{
+    background-color: blue;
+}
+                /*UNIDADES ABSOLUTAS*/
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+#mm{
+    background-color: green;
+    width: 5mm;
+    height: 5mm;
+}
+#in{ /* POLEGADA */
+    background-color: black;
+    width: 1in;
+    height: 1in;
+}
+#px{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+}
+#pt{
+    background-color: black;
+    width: 10pt;
+    height: 10pt;
+}
+#pc{
+    background-color: green;
+    width: 10pc;
+    height: 10pc;
+}
+#base{
+    height: 10px;
+    background-color: red;
+}
+#container{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}

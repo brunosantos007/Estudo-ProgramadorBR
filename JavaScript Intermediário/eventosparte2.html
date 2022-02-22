@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        width: 200px;
+        margin-bottom: 25px;
+    }
+    div{
+        display: inline;
+        padding: 10px;
+        font-size: 2rem;
+        background-color: cornflowerblue;
+        color: white;
+    }
+</style>
+
+<script>
+    function onOver(div){
+        div.style.backgroundColor = "red"
+    }
+
+    function onOut(div){
+        div.style.backgroundColor = "cornflowerblue"
+    }
+
+</script>
+<body onload="console.log('pagina completamente caregada')">
+    <img src="imgs/control.jpg" alt="">
+    <br>
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)">Click</div>
+    
+    <p>Texto para teste</p>
+
+</body>
+</html>

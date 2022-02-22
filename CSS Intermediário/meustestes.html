@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            font-size: 18px;
+            background-color: aqua;
+            width: 80%;
+            margin: auto;
+            padding: 15px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .logo{
+            float: left;
+        }
+        .menu{
+            float: right;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+            float: left;
+            margin-right: 15px;
+        }
+        @media screen and (max-width:800px){
+            .header{
+                background-color: red;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            .header{
+                background-color: black;
+                text-transform: none;
+            }
+            .logo{
+                color: white;
+                float: none;
+                margin: auto;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .menu{
+                float: none;
+                margin: auto;
+                text-align: center;
+            }
+            li{
+                float: none;
+                display: block;
+                color: white;
+                margin-bottom: 20px;
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            Logo
+        </div>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

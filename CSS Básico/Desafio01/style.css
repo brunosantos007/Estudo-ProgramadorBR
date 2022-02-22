@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+body{
+    background-color: black;
+}
+.card{
+    background-image: url(../imgs/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Rowdies', cursive;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+.instagram{
+    list-style-image: url(../imgs/Insta.png);
+}
+.twitter{
+    list-style-image: url(../imgs/Twitter.png);
+}
+.youtube{
+    list-style-image: url(../imgs/Youtube.png);
+}
