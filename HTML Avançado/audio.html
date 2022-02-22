@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #161E35;
+        }
+        #logo{
+            background-color: black;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            position: relative;
+        }
+        #container{
+            width: 300px;
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #controles{
+            text-align: center;
+        }
+        #img{
+            width: 100%;
+        }
+        .btn{
+            margin: 30px;
+            background-color: transparent;
+            border: none;
+            font-size: 3rem;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="logo">
+        <img width="150px" src="Spotify_Logo_RGB_White.png" alt="">
+    </div>
+
+    <div id="container">
+        <img id="img" src="imagens/wig wam.jpg" alt="">
+        <div id="controles">
+            <button id="btn-pause" onclick="pause()" style="display: none;" class="btn"><i class="fa-solid fa-pause"></i></button>
+            <button class="btn"><i class="fa-solid fa-backward-step"></i></button>
+            <button id="btn-play" onclick="play()" class="btn"><i class="fa-solid fa-play"></i></button>
+            <button class="btn"><i class="fa-solid fa-forward-step"></i></button>
+        </div>
+    </div>
+
+    <audio id="music">
+        <source src="musicas/Peacemaker _ Opening Credits _ HBO Max (128 kbps).mp3" type="audio/ogg">
+        <source src="musicas/Peacemaker _ Opening Credits _ HBO Max (128 kbps).mp3" type="audio/mpeg">
+    </audio> 
+
+    <script src="script.js"></script>
+</body>
+</html>

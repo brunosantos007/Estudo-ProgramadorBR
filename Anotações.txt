@@ -167,3 +167,5 @@ Pausar = Pausa o video no momento exato onde palavraProcurada
 Stop = Pausa o video e retrocede para o inicio dele = .currentTime = 0
 Diminuir ou aumentar a velocidade = .playbackRate += ou  -= 0.3
 Full Screen = .resquestFullscreen
+
+26) IFRAME = Uma forma de colocar um conteudo de uma outra pagina, na pagina que quiser, é mais utilizado para videos do youtube
