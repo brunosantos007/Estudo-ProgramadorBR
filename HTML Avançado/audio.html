@@ -12,7 +12,7 @@
             padding: 0;
         }
         body{
-            background-color: #161E35;
+            background-image: linear-gradient(to right,#161E35,#CB120B);
         }
         #logo{
             background-color: black;
@@ -46,7 +46,7 @@
     </style>
 
 </head>
-<body>
+<body id="color">
     <div id="logo">
         <img width="150px" src="Spotify_Logo_RGB_White.png" alt="">
     </div>
@@ -54,17 +54,21 @@
     <div id="container">
         <img id="img" src="imagens/wig wam.jpg" alt="">
         <div id="controles">
-            <button id="btn-pause" onclick="pause()" style="display: none;" class="btn"><i class="fa-solid fa-pause"></i></button>
-            <button class="btn"><i class="fa-solid fa-backward-step"></i></button>
+            <button id="back" onclick="musicaAnterior()" class="btn"><i class="fa-solid fa-backward-step"></i></button>
             <button id="btn-play" onclick="play()" class="btn"><i class="fa-solid fa-play"></i></button>
-            <button class="btn"><i class="fa-solid fa-forward-step"></i></button>
+            <button id="btn-pause" onclick="pause()" class="btn"><i class="fa-solid fa-pause"></i></button> 
+            <button id="next" onclick="proximaMusica()" class="btn"><i class="fa-solid fa-forward-step"></i></button>
         </div>
     </div>
 
     <audio id="music">
-        <source src="musicas/Peacemaker _ Opening Credits _ HBO Max (128 kbps).mp3" type="audio/ogg">
-        <source src="musicas/Peacemaker _ Opening Credits _ HBO Max (128 kbps).mp3" type="audio/mpeg">
+        <source id="trocando" src="musicas/Peacemaker _ Opening Credits _ HBO Max (128 kbps).mp3" type="audio/ogg">
+        <source id="trocando" src="musicas/Peacemaker _ Opening Credits _ HBO Max (128 kbps).mp3" type="audio/mpeg">
     </audio> 
+    <!--<audio id="music2">
+        <source src="musicas/2Pac - All Eyez On Me (128 kbps).mp3" type="audio/ogg">
+        <source src="musicas/2Pac - All Eyez On Me (128 kbps).mp3" type="audio.mpeg">
+    </audio> -->
 
     <script src="script.js"></script>
 </body>
