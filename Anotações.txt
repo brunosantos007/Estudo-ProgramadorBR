@@ -200,3 +200,31 @@ header ~ p {}----- pegar todos os elenentos que sucedam um header por exemplo
 [width] = irá pegar todos os elenentos que estamos utlizando no atributo
 [title^="t"]{} ---- seleciona os que começam com a letra inicial
 [title$="1"]{} ---- seleciona os que terminarem com o numero escolhido
+
+30)PSEUDO CLASSES : TIPOS DE SELETORES
+:focus = irá focar no elemento que clicarmos
+:first-child
+:first-of-type = primeiro do seu tipo dentro do elemento pai
+:nth-child() = pega qualquer filho do elemento pai
+:nth-of-type = escolhe manualmente o elemento so seu tipo
+:last-child
+:last-of-type
+even = numeros pares 
+odd = numeros impares 
+
+31) FUNÇÃO CALC : PERMITIR CALCULAR COM PORCENTAGENS
+calc(100% - 100px)  100% de largura - 100px de margin(50px right + 50 px left)
+
+32) TRANSFORMAÇÕES EM IMAGENS: transform
+rotate(45deg) = girar em 45° graus
+scale(2) = x(numero) do tamanho da imagem
+skew(45deg) = deixa a imagem com as pontas em 45 deg, não gira a imagem toda
+
+33) COMPATIBILIDADE DE NAVEGADORES:
+Usar o "Can i use" para verificar os navegadores: -webkit;-moz;-ms
+
+34) Variaveis em CSS:
+:root{
+    --var_color: red
+} = html
+.div{ color: var(--var_color)}
