@@ -176,3 +176,27 @@ Full Screen = .resquestFullscreen
 .linewidth = largura da linha
 .stroke = expessura da linha
 .strokeStyle = modificando a cor
+
+28) PSEUDOELEMENTOS : COMANDOS QUE PERMITEM QUE MUDEMOS UMA PARTE DOS ELEMENTOS
+:: indicam que irei utilizar os pseudoelementos
+::first-line = definir o estilos para o primeiro elemento
+::first-lettter = primeira letra 
+::before = adcionar um conteudo antes do elemento
+::after = adcionar um conteudo depois do elemento
+::selection = isto é quando clicamos em algum elemento com o mouse fixo
+content = adcionar esses conteudos
+
+29) SELETORES: Formas de selecionar algum elemento
+* seletor que seleciona todos os elementos da pagina
+.p2,h2{   ------- seelciona a classe e o h2
+            background-color: green;
+        }
+div p {   ---- SELECIONA TODOS OS PARAGRAFOS DA DIV
+    background-color = "red"
+}
+#head > p{} ------ seleciona os elementos que estão direatamente ligados ao id
+#head + p{} ------ pega os elementos p que esão apos o nosso head
+header ~ p {}----- pegar todos os elenentos que sucedam um header por exemplo
+[width] = irá pegar todos os elenentos que estamos utlizando no atributo
+[title^="t"]{} ---- seleciona os que começam com a letra inicial
+[title$="1"]{} ---- seleciona os que terminarem com o numero escolhido
