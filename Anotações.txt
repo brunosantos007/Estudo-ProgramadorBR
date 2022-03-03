@@ -169,3 +169,10 @@ Diminuir ou aumentar a velocidade = .playbackRate += ou  -= 0.3
 Full Screen = .resquestFullscreen
 
 26) IFRAME = Uma forma de colocar um conteudo de uma outra pagina, na pagina que quiser, é mais utilizado para videos do youtube
+
+27) CANVAS: FORMA PARA DESENHOS, UMA TELA ONDE PODEMOS DESENHAR, E UMA FORMA DE DEIXAR MAIS FLUIDO 
+.moveto(0(x),0(y)) = ponto inicial do pincel
+.lineto(250(x),250(y)) = desenhar uma linha até tal ponto
+.linewidth = largura da linha
+.stroke = expessura da linha
+.strokeStyle = modificando a cor
