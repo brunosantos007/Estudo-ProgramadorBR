@@ -239,3 +239,19 @@ flex-direction: vem por padrao row = linha
 FLEXBOX = WRAP
 Manterá a mesma proporção de tamanho sem diminuir e quebrará as linhas para caber
 -wrap-reverse
+
+FLEXBOX: FLEX-FLOW: FLEX DIRECTION + WRAP 
+flex-flow : column wrap 
+
+FLEXBOX: JUSTIFY-CONTENT 
+space-evently = espaçamento entre os itens da div estarão igual, da borda té os espaçamentos entre os itens
+
+FLEXBOX: ALIGN-ITENS alinha os itens dentro da div
+stretch = tenterá preencher todo o item
+
+FLEXBOX: ALIGN-CONTENT
+Pega os itens e deixa sem espaçamento entre eles = como se criasse uma div entre os itens
+
+FLEXBOX: GROW/SHRINK UTILIZANDO ELES NOS ELEMENTOS FILHOS
+Shrink = encolhe ao diminuir a tela; recebe 0 ou 1 
+grow = por padrao é zero, não pode aumentar; 1 aumenta ao expandir a tela
