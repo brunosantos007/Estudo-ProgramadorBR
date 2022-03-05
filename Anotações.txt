@@ -228,3 +228,14 @@ Usar o "Can i use" para verificar os navegadores: -webkit;-moz;-ms
     --var_color: red
 } = html
 .div{ color: var(--var_color)}
+
+35) FLEXBOX: FLEX DIRECTION = dentro do elemento pai
+elementos flexiciveis para se adaptar ao elemento pai
+div: tem display block por padrao
+flex-direction: vem por padrao row = linha
+-column and row
+-column-reverse and row-reverse = inverter
+
+FLEXBOX = WRAP
+Manterá a mesma proporção de tamanho sem diminuir e quebrará as linhas para caber
+-wrap-reverse
