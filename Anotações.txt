@@ -255,3 +255,30 @@ Pega os itens e deixa sem espaçamento entre eles = como se criasse uma div entr
 FLEXBOX: GROW/SHRINK UTILIZANDO ELES NOS ELEMENTOS FILHOS
 Shrink = encolhe ao diminuir a tela; recebe 0 ou 1 
 grow = por padrao é zero, não pode aumentar; 1 aumenta ao expandir a tela
+
+FLEXBOX: ORDER
+ordena os itens a onde quiser ; order: 1; i´ra substituir o elemento 1
+
+FLEXBOX : ALIGN-SELF
+Utilizado apenas no elemento filho
+
+36) GRID: DIVIDIDAS EM COLUNAS E LINHAS
+display: grid ----- Só se utiliza no elemento Pai
+grid-template-rows && grid-template-columns = auto = irá se adaptar ao tamanho da tela/elemento; 50% && 50px && 1fr 2fr 1fr
+RESUMIDO: GRID-TEMPLATE = (LINHAS) / (COLUNAS)
+
+GRID: ESPAÇAMENTO ENTRE AS GRIDS
+grid-row-gap = espaçamento das linhas entre eles
+grid-column-gap = espaçamento das colunas entre eles
+Resumido = gap : 10px
+
+GRID: JUSTIFY E ALIGN-ITEMS = mexe com os itens
+justify-content o grupo de células em relação ao seu container e o justify-items alinha os itens internos em relação a suas células, o mesmo vale para o align.
+justify-items = o mesmo que justify-content no flexbox HORIZONTAL
+align-items = alinhamento na VERTICAL
+strech = preenche todo o espaço
+
+GRID: JUSTIFY E ALIGN-CONTENT = mexe com o conteudo dentro da div
+
+GRID: TEMPLATE AREA
+Um modo para fazer linhas e colunas 

@@ -7,28 +7,36 @@
     <title>Document</title>
     <style>
         .container{
-            display: flex;
-            background-color: darkgray;
-            height: 400px;
             color: white;
-            justify-content: center;
-            align-items: flex-end;
+            display: grid;
+            padding: 10px;
+            background-color: grey;
+            /* grid-template-rows: auto auto; */
+            /* grid-template-columns: 20% 150px auto; */
+            grid-template: auto auto/ auto auto auto;
+            /* grid-row-gap: 10px; */
+            /* grid-column-gap: 10px; */
+            justify-items: center;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            align-content: flex-start;
+            gap: 10px;
+            height: 500px;
         }
         .r1{
             background-color: red;
         }
         .r2{
             background-color: blue;
-            /* align-self: flex-end; */
-            align-self: flex-start;
         }
         .r3{
             background-color: green;
         }
         .rect{
-            height: 150px;
-            width: 150px;
+            width: 100px; 
+            height: 100px; 
         }
+
     </style>
 </head>
 <body>
@@ -37,6 +45,9 @@
         <div class="rect r1">1</div>
         <div class="rect r2">2</div>
         <div class="rect r3">3</div>
+        <div class="rect r1">4</div>
+        <div class="rect r2">5</div>
+        <div class="rect r3">6</div>
     </div>
     
 </body>
