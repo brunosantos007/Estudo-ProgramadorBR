@@ -15,19 +15,36 @@
             width: 200px;
             height: 200px;
             border-style: solid;
-            animation-name: move;
+            /* animation-name: move; 
             animation-duration: 3s;
-            animation-fill-mode: forwards;
+            animation-fill-mode: forwards; */
+            animation: move 3s linear 0 1 normal forwards;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+        }
+        .div1{
+            animation-timing-function: linear;
+        }
+        .div2{
+            animation-timing-function: ease;
+        }
+        .div3{
+            animation-timing-function: ease-in;
+        }
+        .div4{
+            animation-timing-function: ease-out;
+        }
+        .div5{
+            animation-timing-function: ease-in-out;
         }
     </style>
 </head>
 <body>
 
-    <div class="box div1"></div>
-    <div class="box div2"></div>
-    <div class="box div3"></div>
-    <div class="box div4"></div>
-    <div class="box div5"></div>
+    <div class="box div1">Linear</div>
+    <div class="box div2">Ease</div>
+    <div class="box div3">Ease-in</div>
+    <div class="box div4">Ease-out</div>
+    <div class="box div5">Ease-in-out</div>
     
 </body>
 </html>
