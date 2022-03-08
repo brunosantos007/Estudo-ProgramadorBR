@@ -282,3 +282,29 @@ GRID: JUSTIFY E ALIGN-CONTENT = mexe com o conteudo dentro da div
 
 GRID: TEMPLATE AREA
 Um modo para fazer linhas e colunas 
+
+GRID: 
+grid-column-start = onde começa a colunas
+grid-column-end = onde termina a coluna 
+grid-row-start = onde inicia a linha 
+grid-row-end = onde termina a linha
+span = se utiliza aqui para se expandir colunas ou linha; por exemplo : 
+grid-column-end : span 4 = a coluna vai do elemento que esta, até a coluna 4 esticando
+
+37) ANIMAÇÕES EM CSS : KEYFRAMES
+@keyframes changeColor{
+            from {background-color: red;} --- ESTADO INICIAL
+            to{background-color: blue;}   --- ESTADO FINAL
+            0%{background-color: red;} --- ESTADO INICIAL
+            23%{background-color:purple; width:400px margin: auto; border-radius: 50%;} ---- MUDANDO O FORMATO DAS ANIMAÇÕES
+            50%{background-color: green;}
+            100%{background-color: yellow;} --- ESTADO FINAL
+
+        }
+animation-name: changeColor; --- chamar a função keyFrame
+animation-duration: 5s; --- duração da animação
+animation-delay = uma demora a mais para aparecer o elemento
+animation-iteration-count: infinite 2; ---- Contagem de quantas vezes a animação será feita
+animation-direction: reverse alternate;
+animation-fill-mode: both(em ambos) forwards backward; ---- Deixa o fim da animação com a cor ou animação do inicio
+time-function = uma propriedade que define a velocidade da animação
