@@ -1,0 +1,167 @@
+01) AULA TIPOS DE DADOS:
+-\n Irá para a proxima linha
+-Concatenar = Jutar as palavras formando uma nova palavra.
+
+02) Operações Aritméticas:
++ adição
+- subtração
+* multiplicação
+/ divisão
+% modulo  o que sobrou da divisão
+++ incremento  ++a incrementa(soma) de imediato; a++ incrementa so depois
+--decremento
+
+03) Atribuições:
+a++; a += 1; a= a + 1
+x += y OU x = x + y
+x -= y OU x = x - y  E POR AI VAI
+
+04) Operadores de Comparação:
+a = recebe 2, não é igual,  É UMA ATRIBUIÇÃO
+== igual a 
+=== valor igual e tipo
+!= não é igual
+!== não é igual ou não é ao tipo
+> maior que
+< menor que 
+>= maior que ou igual a
+<= menor igual ou igual a 
+
+05) Operadores Lógicos
+&&  so vai retornar verdadeiro se as duas forem verdadeiras
+|| ou se um dos dois forem verdadeiros o OU será verdadeiro
+// !Negativo
+CONCATENAÇÃO = JUNTAR DUAS COISAS
+
+06) Transofrmando Strings em Numeros
+var c = parseInt(a) + parseInt(b)
+parseFloat(a) + parseFloat(b)
+
+07) Alert & Prompt
+Alert uma simples mensagem
+Prompt Perguntas com resposta ( SEMPRE RETORNA STRINGS = PARSEFLOAT)
+
+08) Operador Ternário: O mesmo que o IF, em uma linha só
+idade >= 18 ? console.log("Pode") : console.log("Não pode")
+var palavraProcurada = texto.includes(`bobo`) ? "Tem essa palavra" : "Não tem essa palavras"
+INCLUDES = verifica se um determinado elemento existe retornando true ou false
+
+09)For & While:
+for( var i = 0; i < numero; i++)
+while(numero < 90){ numero++}
+- Math.random() = Matemática de numero aleatorio
+
+10) ARRAY(USA INDICES) : É uma estrutura de dados que pode armazenar varios dados em conjunto
+-Primeiro tipo de array : var vetor = new Array();
+-Segundo tipo de array : var alunos = [];
+- 0(ZERO) É a primeira posição do ARRAY
+.length = tamanho do array
+For ( var in) = vai percorrer as propriedades do nosso objeto(array)
+For ( var of) = vai pegar os valores dentro do array
+o "in" no for tem a função de retornar o index de cada elemento enquanto o "of" retorna o elemento em si,
+
+11) FUNCTIONS:
+function media(n1,n2) === argumentos que estou passando 
+media(5,8)
+VARIAVEL QUE RECEBE FUNÇÃO = var x = mediaAnual(b1,b2,b3,b4)
+Quando utilizamos parenteses na função = Estamos executando a função naquele momento
+Quando não utilizamos parenteses na função = é porque estamos utilizando aquela funçaõ dentro de uma variavel ou de alguma propriedade de algum objeto
+
+12) OBJETOS (USAM CHAVES):
+Propriedade = Variavel
+var alunos = {} OU var alunos = new Object({})
+NOME(CHAVE): "BRUNO(VALOR)
+Formas de adicionar propriedades dentro de um objeto : 
+1)alunos.matricula = 12345
+2)alunos["sobrenome"] = "Oliveira"
+
+13) Métodos:
+São chamados de métodos, mas são praticamente funções
+This. = Referencia ao elemento pai da propriedade; Ele só vai funcionar atribuidade a uma propriedade de um objeto
+FOR.EACH = Irá varrer nossa array, cada um dos objetos
+
+14) DATAS:
+new Date(years,month,day,hours,minutes,seconds,miliseconds)
+.getFullYear = Pega o ano 
+.getDay = Pega o dia da semana 0-Domingo 6-Sabado
+.setDate = O set é para mudar a data
+
+15) CONST, LET , VAR :
+CONST = Uma vez que foi atribuida o valor, não pode ser mais inserido um outro valor,porem se for inserido um novo valor na CONST,so iremos mudar o conteudo do array; PODE SER MODIFICADO MAS NÃO RETRIBUIDA
+.Push = adicionar um novo elemento no array
+O que é escopo ? onde a variavel existe dentro dos blocos; Funções tem um escopo mais fechado. Mesmo um var, criada dentro do bloco de uma função só existira ali dentro; LET E CONST TEM UM ESPOCOPO LOCAL, UMA VEZ QUE CRIEI DENTRO DE UM BLOCO, ELES SÓ EXISTIRAM SÓ DENTRO DO BLOCO
+VAR = VARIAVEL GLOBAL
+LET = VARIAVEL LOCAL
+CONST = VARIAVEL LOCAL
+
+16) DOM = DOCUMENT OBJE CT MODEL
+.getElemetsByiD
+.getElementsByClassName
+.getElementsByTagName = Pega todos os elementos
+
+17) Modificando elementos/Inserindo Conteudos :
+.innerHTML = vai receber só HTML
+.innerText = Vai aparecer so o que estivert na tela
+.textContent = irá aparecer todo o texto que tiver inserido no HTML
+.settAtribute = mudar uma classe ou algo do tipo
+
+18) EVENTOS:
+onclick;
+onChange
+onInput = Modifica automaticamente o input
+onload = é um evento que excutado depois que toda pagina for executada
+onMousOut = quando o mouse sair do local escolhido
+display "none" = desaparecer
+.addEventListener("click",funçãoDesejada) = e.target será o elemento que esta sofrendo aquele evento
+t1.onclick = colocarEmMaiuscula
+toUpperCase() = função para deixar as letras em maiuscula
+toLowerCase() = função para deixar as letras em minuscula
+
+19) ELEMENTOS PAI E FILHO:
+Para acessar o elemento filho = children[0] Pega o primeiro elemento filho de uma DIV
+Para acessar o elemento pai = parentEement
+Para acessar o ultimo filho = lastElementChild
+
+20) OBJETO MATH:
+Serve para fazer calculos matemáticos diversos
+Math.sqrt(16) = Raiz Quadrada
+Math.pow(2,3) = Potência 
+Math.random() = Numeros aleatorios
+Math.round(Math.random() *10)  = Numeros arredondados
+Math.floor = Um numero 5.01 será 5 ou 5.99 será 5
+Math.ceil = Um numero 5.01 será 6 aqui
+
+21) JSON:
+é uma representação de um objeto, forma de representar uma função javascript
+JSON.stringfy = pega um objeto JSON e transforma em uma string
+JSON.parse = pega uma string e transforma em um objeto JSON
+
+22) LOCAL STORAGE : ARMAZENAMENTO DE DADOS NO NAVEGADOR
+localStorage.setItem("string",) = Grava na memoria do navegador
+localStorage.getItem() = Pega o dado gravado 
+localStorage.removeItem() = Apaga os dados do navegador
+localStorage.clear() = Limpa todos os dados
+
+23) TIMER E INTERVALO : Delay 
+setTimeOut(função,tempo de intervalo 1000 = 1 segundo) = Executa uma função depois de um intervalo de tempo ,  EXECUTA UMA VEZ SÓ, NÃO FAZ LOOP
+setInterval = Executa uma função depois de um intervalo de tempo REPETIDAMENTE
+clearInterval(Tem que gravar o intervalo que deseja parar) = Parar o intervalo
+clearTimeOut
+
+24) Atributos Personalizados:ATRIBUTOS SÃO TODOS AQUELES DADOS QUE COMPOEM UMA TAG: ID, CLASS, SRC, HREF
+Permitem que eu consiga acessar um atributo atraves do javascript
+.getAtribute: Busca o atributo do html para JS
+.setAtribute(Nome do atributo, novo valor para o elemento): Adiciona / Altera um elemento HTML pelo javascript
+Se inventarmos um novo atributo para uma tag, o aconselhavel é usar o DATASET = Ele transforma sempre em uma string os valores do atributo
+.RemoveAtribute(Remove o atributo que quisermos)
+
+38) STRICT MODE: FAZ COM QUE NÃ TENHA ERROS EM CODIGOS REPETIDOS, UTILIZANDO O ESCOPO LOCAL;
+Global: quando está no nivel do programa,e não apenas de uma função(quando é apenas em função, é escopo local)
+- Toda variavel local pode ser acessada no escopo que ela foi criada, uma função por exemplo. Toda variavel globla, pode ser acessada de qualquer lugar do programa
+- "use strict"; faz com seja obrigado declarar uma variavel
+
+39) THIS E BIND:
+O método BIND da um sentido a uma FUNÇÃO que esta referida com o THIS, A FUNÇÃO com THIS não reconhce o THIS, para isso se deve utilizar o BIND; UMA CÓPIA DA FUNÇÃO FORNECIDA COM O VALOR THIS ESPECIFICADO E ARGUMENTOS INICIAIS
+-let bindedFunction = speakGeneric.bind(cat)
+ bindedFunction()
+
