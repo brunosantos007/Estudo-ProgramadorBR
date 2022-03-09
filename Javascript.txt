@@ -165,3 +165,18 @@ O método BIND da um sentido a uma FUNÇÃO que esta referida com o THIS, A FUN�
 -let bindedFunction = speakGeneric.bind(cat)
  bindedFunction()
 
+40) ARROW-FUNCTIONS : FUNÇÕES DE SETA; ELA JÁ RECEBE RETORNO; FUNÇÃO ANONIMA; NÃO RECEBE THIS
+1) FORMA DE FUNÇÃO :
+function dobro(x){
+    console.log(2*x)
+}
+dobro(5)
+
+2) FORMA DE FUNÇÃO:
+let dobro = (x) => {
+    console.log(2 * x)
+}
+dobro(5)
+
+3) FORMA DE FUNÇÃO:
+let dobro = x => 2 * x
