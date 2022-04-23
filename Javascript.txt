@@ -180,3 +180,5 @@ dobro(5)
 
 3) FORMA DE FUNÇÃO:
 let dobro = x => 2 * x
+
+41) CallBack - FUNÇÃO COMO ARGUMENTO DE UMA FUNÇÃO
